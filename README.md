@@ -1,5 +1,7 @@
 # FERNANbnb
 
+![image](https://user-images.githubusercontent.com/119956424/206865621-13d0f86c-f019-4531-9fb5-e7a22dbddc65.png)
+
 ## Comenzando 🚀
 
 FERNANbnb se trata de un software de consola, que nos permite implementar una plataforma de reservas de alojamientos.
@@ -46,8 +48,10 @@ Al iniciar el programa sólo podrá iniciar sesión el administrador. Para poder
 
 ![image](https://user-images.githubusercontent.com/119956424/206857663-89a36d5f-3d48-4a19-a5bb-e0f9f9d50faa.png)
 
-Las credenciales de administrador son: 
+Las credenciales de administrador son:
+
 email: admin@gmail.com
+
 contraseña: admin
 
 1. Ver todas las viviendas en alquiler
@@ -168,7 +172,7 @@ Podemos modificar el nombre, apellidos, contraseña y teléfono. En el caso de q
 En esta opción, como su nombre indica se sale del programa y se cierra.
 
 
-## Versionado 📌
+## Estado 📌
 ![Badge Final](https://img.shields.io/badge/ESTADO-FINAL-green)
 
 
