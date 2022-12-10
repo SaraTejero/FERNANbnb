@@ -64,5 +64,5 @@ Da un ejemplo
 
 ## Autores ✒️
 
-* **Sara Tejero Escribano**
-* **Jose Miguel Aranda Fernández** 
+* **Sara Tejero Escribano** - [](https://github.com/SaraTejero)
+* **Jose Miguel Aranda Fernández** - [JoseMiAranda](https://github.com/JoseMiAranda)
