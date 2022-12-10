@@ -19,7 +19,7 @@ java -version
 
 La instalación es sencilla, tan sólo debes descargar el siguiente .rar a través del enlace que te dejamos aquí:
 
-https://drive.google.com/file/d/1L1LAH8MZ3Zi1fSC_t5_SIE_eFVWlVqQS/view?usp=share_link
+https://drive.google.com/file/d/18K7p4MO4EqKs2x3VyqXxmw2KpF0HBCEF/view?usp=sharing
 
 Una vez descargado, descomprimimos el contenido, llevamos los ficheros al escritorio y ejecutamos el archivo FERNANbnb.bat
 
