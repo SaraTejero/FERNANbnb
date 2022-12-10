@@ -48,7 +48,7 @@ public class Menus {
     public static void menuRegistro() {
         System.out.println();
         System.out.println("""
-                        =================== REGISTRO =================
+                        ================== REGISTRO ==================
                         |                                            |
                         |         ¿Cómo desea registrarse?           |
                         |                                            |
@@ -67,20 +67,20 @@ public class Menus {
         while (!cerrarSesion){
             System.out.println();
             System.out.println(
-                    "==================== PERFIL DE ADMINISTRADOR ======================\n" +
-                            "\n" +
-                            " Bienvenio/a " + administrador.getNombre() + ", perfil de administración\n" +
-                            "\n" +
-                            "================ MENÚ PRINCIPAL ================\n" +
-                            "\n" +
-                            "  1.- Ver todas las viviendas en alquiler.\n" +
-                            "  2.- Ver todos los usuarios del sistema.\n" +
-                            "  3.- Ver todas las reservas de viviendas.\n" +
-                            "  4.- Ver mi perfil.\n" +
-                            "  5.- Modificar mi perfil.\n" +
-                            "  6.- Cerrar sesión.\n" +
-                            "\n" +
-                            "===================================================================\n");
+                    "==================== PERFIL DE ADMINISTRADOR ====================\n" +
+                    "\n" +
+                    " Bienvenio/a " + administrador.getNombre() + ", perfil de administración\n" +
+                    "\n" +
+                    "========================= MENÚ PRINCIPAL ========================\n" +
+                    "\n" +
+                    "  1.- Ver todas las viviendas en alquiler.\n" +
+                    "  2.- Ver todos los usuarios del sistema.\n" +
+                    "  3.- Ver todas las reservas de viviendas.\n" +
+                    "  4.- Ver mi perfil.\n" +
+                    "  5.- Modificar mi perfil.\n" +
+                    "  6.- Cerrar sesión.\n" +
+                    "\n" +
+                    "=================================================================\n");
 
             System.out.print("-> Seleccione una opcion: ");
             opcion = Integer.parseInt(s.nextLine());
@@ -170,20 +170,20 @@ public class Menus {
             System.out.println();
             System.out.println(
                     "============================== PERFIL DE USUARIO ==============================\n" +
-                            "\n" +
-                            " Bienvenio/a " + usuario.getNombre() +", busque un alojamiento para sus próximas vacaciones\n" +
-                            "                             Tienes " + usuario.getNumReservas() + " reservas\n" +
-                            "\n" +
-                            "================================ MENÚ PRINCIPAL ===============================\n" +
-                            "\n" +
-                            "    1.- Búsqueda de alojamientos.\n" +
-                            "    2.- Ver mis reservas.\n" +
-                            "    3.- Borrar mis reservas.\n" +
-                            "    4.- Ver mi perfil.\n" +
-                            "    5.- Modificar mi perfil.\n" +
-                            "    6.- Cerrar sesión.\n" +
-                            "\n" +
-                            "===============================================================================\n");
+                    "\n" +
+                    " Bienvenio/a " + usuario.getNombre() +", busque un alojamiento para sus próximas vacaciones\n" +
+                    "                               Tienes " + usuario.getNumReservas() + " reservas\n" +
+                    "\n" +
+                    "================================ MENÚ PRINCIPAL ===============================\n" +
+                    "\n" +
+                    "    1.- Búsqueda de alojamientos.\n" +
+                    "    2.- Ver mis reservas.\n" +
+                    "    3.- Borrar mis reservas.\n" +
+                    "    4.- Ver mi perfil.\n" +
+                    "    5.- Modificar mi perfil.\n" +
+                    "    6.- Cerrar sesión.\n" +
+                    "\n" +
+                    "===============================================================================\n");
             System.out.print("-> Seleccione una opcion: ");
             opcion = Integer.parseInt(s.nextLine());
 
@@ -199,12 +199,12 @@ public class Menus {
                     String resultadoAlojamoientos = Datos.buscarAlojamiento(ciudadTeclado, fechaInicio, fechaFin, huespedesTeclado);
                     System.out.println(resultadoAlojamoientos);
                     if(!resultadoAlojamoientos.equals("No hay viviendas en alquiler.") && !resultadoAlojamoientos.equals("No se han encontrado viviendas con esos requisistos")){
-                        System.out.print("¿Deseas hacer una reserva(S/N)?: ");
+                        System.out.print("¿Deseas hacer una reserva (S/N)?: ");
                         if (!s.nextLine().toUpperCase().equals("S")) Mensajes.pausa("Pulse enter para continuar...");
                         else {
                             boolean reservar = false;
                             do{
-                                System.out.print("¿Qué vivienda deseas reservar(Seleccione el ID de la vivienda deseada)?: ");
+                                System.out.print("¿Qué vivienda deseas reservar? (Seleccione el ID de la vivienda deseada): ");
                                 opcion = Integer.parseInt(s.nextLine());
                                 switch (opcion){
                                     case 1,2 ->{
@@ -327,21 +327,21 @@ public class Menus {
             System.out.println();
             System.out.println(
                     "============================ PERFIL DE PROPIETARIO ============================\n" +
-                            "\n" +
-                            "      Bienvenio/a " + propietario.getNombre() + ", gestione sus viviendas en alquiler.\n" +
-                            "                       Tienes " + propietario.getTotalViviendas() + " viviendas en alquiler.\n" +
-                            "\n" +
-                            "================================== MENÚ PRINCIPAL =============================\n" +
-                            "\n" +
-                            "   1.- Ver mis viviendas en alquiler.\n" +
-                            "   2.- Editar mis viviendas.\n" +
-                            "   3.- Ver las reservas de mis viviendas.\n" +
-                            "   4.- Cambiar periodo de disponibilidad para una vivienda.\n" +
-                            "   5.- Ver mi perfil.\n" +
-                            "   6.- Modificar mi perfil.\n" +
-                            "   7.- Cerrar sesión.\n" +
-                            "\n" +
-                            "===============================================================================\n");
+                    "\n" +
+                    "  Bienvenio/a " + propietario.getNombre() + ", gestione sus viviendas en alquiler.\n" +
+                    "                       Tienes " + propietario.getTotalViviendas() + " viviendas en alquiler.\n" +
+                    "\n" +
+                    "=============================== MENÚ PRINCIPAL ================================\n" +
+                    "\n" +
+                    "   1.- Ver mis viviendas en alquiler.\n" +
+                    "   2.- Editar mis viviendas.\n" +
+                    "   3.- Ver las reservas de mis viviendas.\n" +
+                    "   4.- Cambiar periodo de disponibilidad para una vivienda.\n" +
+                    "   5.- Ver mi perfil.\n" +
+                    "   6.- Modificar mi perfil.\n" +
+                    "   7.- Cerrar sesión.\n" +
+                    "\n" +
+                    "===============================================================================\n");
             System.out.print("-> Seleccione una opcion: ");
             opcion = Integer.parseInt(s.nextLine());
             switch (opcion) {

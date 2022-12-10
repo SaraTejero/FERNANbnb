@@ -12,8 +12,6 @@ public class Reserva {
     private Date fechaEntrada;
     private Date fechaSalida;
     private int huesped;
-    private double precioNoche;
-    private double precioTotal;
 
     // Constructor
     public Reserva(int id, Usuario usuario, Vivienda vivienda, Date fechaEntrada, Date fechaSalida, int huesped) {
@@ -81,6 +79,6 @@ public class Reserva {
                 "\nEntrada: " + formato.format(fechaEntrada) +
                 "\nSalida: " + formato.format(fechaSalida) +
                 "\nHuesped: " + huesped +
-                "\nPrecio por noche: " + vivienda.getPrecioNoche() + "€; Precio total: " + (vivienda.getPrecioNoche() * noches) + "€";
+                "\nPrecio por noche: " + vivienda.getPrecioNoche() + " euros; Precio total: " + (vivienda.getPrecioNoche() * noches) + "euros";
     }
 }

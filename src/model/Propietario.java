@@ -97,11 +97,6 @@ public class Propietario {
         vivienda.setFechaFin(fechaFin);
     }
 
-    public boolean comprobarEspacio(String email){
-        if(email == "") return true;
-        return false;
-    }
-
     public boolean existenciaVivienda(){
         if (vivienda == null) return false;
         return true;

@@ -48,12 +48,6 @@ public class Vivienda {
     public int getTipoVivienda() {
         return tipoVivienda;
     }
-    public static String tipoViviendaString(int tipoVivienda) {
-        if (tipoVivienda == 1) return "Chalet";
-        if (tipoVivienda == 2) return "Apartamento";
-        if (tipoVivienda == 3) return "Bajo";
-        else return "Estudio";
-    }
     public void setTipoVivienda(int tipoVivienda) {
         this.tipoVivienda = tipoVivienda;
     }
@@ -125,6 +119,12 @@ public class Vivienda {
     }
 
     // Métodos
+    public static String tipoViviendaString(int tipoVivienda) {
+        if (tipoVivienda == 1) return "Chalet";
+        if (tipoVivienda == 2) return "Apartamento";
+        if (tipoVivienda == 3) return "Bajo";
+        else return "Estudio";
+    }
 
     public boolean cumplirTodosRequisitos(String ciudad,Date fechaInicio, Date fechaFin, int huespedes){
         if (!cumplirRequisitoLocalidad(ciudad)) return false;
