@@ -40,6 +40,39 @@ En un principio no se encuentran registrados ningún usuario ni ningún propieta
 
 ### Iniciar sesión ⌨️
 
+Al iniciar el programa sólo podrá iniciar sesión el administrador. Para poder iniciar sesión como usuario o propietario es necesario registrarse.
+
+* Menú de administrador
+
+![image](https://user-images.githubusercontent.com/119956424/206857663-89a36d5f-3d48-4a19-a5bb-e0f9f9d50faa.png)
+
+Las credenciales de administrador son: 
+email: admin@gmail.com
+contraseña: admin
+
+1. Ver todas las viviendas en alquiler
+2. Ver todos los usuarios del sistema
+
+
+
+4. Ver todas las reservas de viviendas
+
+![image](https://user-images.githubusercontent.com/119956424/206857889-c87b859c-0ba5-47b0-acb9-85e404022f7e.png)
+
+Muestra todas las reservas creadas.
+
+5. Ver mi perfil
+
+![image](https://user-images.githubusercontent.com/119956424/206857849-ba25d517-0b8a-4012-9fbb-41383333a9ec.png)
+
+Te muestra los datos del administrador.
+
+6. Modificar mi perfil
+
+![image](https://user-images.githubusercontent.com/119956424/206857817-b2935e4b-b7cd-4ea4-a434-b29c224d2d71.png)
+
+Podemos modificar el nombre, contraseña. En el caso de querer cambiar la contraseña, se nos pedirá en primer lugar la contraseña actual para poderla cambiar.
+
 ### Registrar nuevo usuario o propietario ⌨️
 Al seleccionar la opción 2 del menú principal, se muestra el menú de registro.
 
@@ -49,14 +82,44 @@ Dependiendo del la opción elegida, el programa solicitará una serie de datos.
 
 * Registrar usuario
 
-![image](https://user-images.githubusercontent.com/119956424/206856115-4ab043ae-88df-4f15-8945-ae04abdd1257.png)
+![image](https://user-images.githubusercontent.com/119956424/206857147-014e54cd-cd88-490a-9ed8-ebeae44ba560.png)
 
 Si deseamos registrar un usuario nos pide: email, contraseña, nombre, apellidos y teléfono. Una vez rellenado los datos nos muestra el menú de usuario, dónde podemos ver las reservas que tenemos creadas.
 
+1. Búsqueda de alojamientos
+
+![image](https://user-images.githubusercontent.com/119956424/206857296-a9cc70c4-e67a-4c20-8919-470c68bad8d1.png)
+
+Mostrará las viviendas que se ajusten a la búsqueda realizada y estén disponibles para su reserva.
+
+3. Ver mis reservas
+
+![image](https://user-images.githubusercontent.com/119956424/206857340-8105e4ce-e587-4af5-928a-4ec3b16fc463.png)
+
+Como hemos realizado previamente una reserva, en este apartado nos muestra todas las reservas realizadas, en nuestro caso 1.
+El usuario sólo podrá realizar como máximo 2 reservas.
+
+5. Borrar mis reservas
+
+![image](https://user-images.githubusercontent.com/119956424/206857479-ff7bedae-2cf1-4568-948d-baff02e64a40.png)
+
+Para borrar la reserva hay que introducir el id, en caso de introducir 0 (cero), volveremos al menú de propietario sin borrarla, en caso contrario nos pedirá confirmarla.
+
+7. Ver mi perfil
+
+![image](https://user-images.githubusercontent.com/119956424/206857491-8967b384-18c2-4a43-aeb8-5345e0c362fd.png)
+
+Te muestra tus datos como usuario.
+
+9. Modificar mi perfil
+
+![image](https://user-images.githubusercontent.com/119956424/206857536-991f7584-2085-4b3a-8065-e3f95e7c7d10.png)
+
+Podemos modificar el nombre, apellidos, contraseña y teléfono. En el caso de querer cambiar la contraseña y el teléfono, se nos pedirá en primer lugar la contraseña actual para poder realizar esas modificaciones. 
 
 * Registrar propietario
 
-![image](https://user-images.githubusercontent.com/119956424/206855740-6df7ff36-9cd6-427d-8d46-145dd082790b.png)
+![image](https://user-images.githubusercontent.com/119956424/206857057-47adecf2-6b5c-4180-a69e-e06f898ad34c.png)
 
 Al igual que el registro de usuario, se nos pedirá una serie de datos. Al tratarse de un propietario podemos registrar una vivienda (sólo podrá registrarse como máximo 1 vivienda). Una vez rellenado los datos nos muestra el menú de propietario, dónde podemos ver las viviendas que tenemos registradas.
 
@@ -68,7 +131,7 @@ En este apartado aparecerán las viviendas que tenemos registradas
 
 2. Editar mis viviendas
 
-![image](https://user-images.githubusercontent.com/119956424/206856234-ee7f896d-e742-431c-b810-91ee7eade8d6.png)
+![image](https://user-images.githubusercontent.com/119956424/206857078-620c605d-e390-417a-ae50-f9bdb0336068.png)
 
 En esta opción podemos editar el número de huéspedes, el precio por noche, podemos borrar la vivienda creada y añadir una vivienda en caso de no haberla creado en un principio, si usted ya tiene una vivienda registrada, no le permite crear una nueva.
 
