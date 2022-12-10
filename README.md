@@ -7,12 +7,12 @@ FERNANbnb se trata de un software de consola, que nos permite implementar una pl
 
 ### Pre-requisitos 📋
 - Sistema Operativo Windows
-- JAVA (JDK) versión 19
+- JAVA versión 19.0.1
 
 Puedes ver la versión abriendo el 'Símbolo del sistema' o consola y escribiendo el siguiente código:
 
 ```
-javac --version
+java -version
 ```
 
 ### Instalación 🔧
@@ -21,7 +21,7 @@ La instalación es sencilla, tan sólo debes descargar el siguiente winrar a tra
 
 Insertar enlace.
 
-Una vez descargado, descomprimimos el contenido en nuestro disco local C: y ejecutamos el archivo FERNANbnb.bat
+Una vez descargado, descomprimimos el contenido en nuestro disco local C: y llevamos los ficheros al escritorio. Ejecutamos el archivo FERNANbnb.bat
 
 
 _Dí cómo será ese paso_
@@ -64,5 +64,5 @@ Da un ejemplo
 
 ## Autores ✒️
 
-* **Sara Tejero Escribano** - [](https://github.com/SaraTejero)
+* **Sara Tejero Escribano** - [SaraTejero](https://github.com/SaraTejero)
 * **Jose Miguel Aranda Fernández** - [JoseMiAranda](https://github.com/JoseMiAranda)
