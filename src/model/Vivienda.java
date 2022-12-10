@@ -228,7 +228,7 @@ public class Vivienda {
                 "\nVivienda: " + tipoViviendaString(tipoVivienda) + " en " + localidad +
                 "\nDireccion: " + direccion +
                 "\nNúmero de huésped máximo: " + huesped +
-                "\nPrecio por noche: " + precioNoche + "€";
+                "\nPrecio por noche: " + precioNoche + " euros";
     }
 
 

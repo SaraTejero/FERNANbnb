@@ -228,14 +228,17 @@ public class Datos {
         return listaPropietarios;
     }
 
-    public void mostrarViviendas(){
+    public String mostrarViviendas(){
+        String lista = "";
         //Comprobamos la existencia de los propietarios y si existen comprobamos si tienen viviendas
         if(propietario1 != null){
-            if(propietario1.existenciaVivienda()) System.out.println(propietario1.mostrarVivienda());
+            if(propietario1.existenciaVivienda()) lista += "\n" + propietario1.mostrarVivienda();
         }
         if(propietario2 != null){
-            if(propietario2.existenciaVivienda()) System.out.println(propietario2.mostrarVivienda());
+            if(propietario2.existenciaVivienda()) lista += "\n" + propietario2.mostrarVivienda();
         }
+        if (lista.equals("")) return "No hay viviendas creadas.";
+        return lista;
     }
 
 

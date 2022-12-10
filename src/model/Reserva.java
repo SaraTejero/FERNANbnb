@@ -79,6 +79,6 @@ public class Reserva {
                 "\nEntrada: " + formato.format(fechaEntrada) +
                 "\nSalida: " + formato.format(fechaSalida) +
                 "\nHuesped: " + huesped +
-                "\nPrecio por noche: " + vivienda.getPrecioNoche() + " euros; Precio total: " + (vivienda.getPrecioNoche() * noches) + "euros";
+                "\nPrecio por noche: " + vivienda.getPrecioNoche() + " euros; Precio total: " + (vivienda.getPrecioNoche() * noches) + " euros";
     }
 }

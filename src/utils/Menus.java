@@ -86,24 +86,23 @@ public class Menus {
             opcion = Integer.parseInt(s.nextLine());
             switch (opcion) {
                 case 1: // Ver todas las viviendas en alquiler
-                    if (datos.getContadorViviendas() == 0) System.out.println("No hay viviendas creadas.");
-                    else datos.mostrarViviendas();
+                    System.out.println(datos.mostrarViviendas());
                     break;
                 case 2: // Ver todos los usuarios del sistema
                     Mensajes.delay("Mostrando todos los usuarios");
                     if (datos.getTotalUsuarios() == 0 && datos.getTotalPropietarios() == 0) System.out.println("No hay usuarios creados");
                     if(datos.getTotalPropietarios() != 0 && datos.getTotalUsuarios() == 0){
-                        System.out.println("------- PROPIETARIOS -------");
+                        System.out.println("--------- PROPIETARIOS ---------");
                         System.out.println(datos.mostrarPropietarios());
                     }
                     if(datos.getTotalUsuarios() != 0 && datos.getTotalPropietarios() == 0){
-                        System.out.println("------- USUARIOS -------");
+                        System.out.println("--------- USUARIOS ---------");
                         System.out.println(datos.mostrarUsuarios());
                     }
                     if(datos.getTotalUsuarios() != 0 && datos.getTotalPropietarios() != 0){
-                        System.out.println("------- PROPIETARIOS -------");
+                        System.out.println("--------- PROPIETARIOS ---------");
                         System.out.println(datos.mostrarPropietarios());
-                        System.out.println("------- USUARIOS -------");
+                        System.out.println("\n--------- USUARIOS ---------");
                         System.out.println(datos.mostrarUsuarios());
                     }
                     break;
@@ -118,7 +117,7 @@ public class Menus {
                         System.out.println("""
                             =========== MODIFICAR PERFIL ===========
                             |                                      |
-                            |    ¿Qué apartado desee modificar?    |
+                            |    ¿Qué apartado desea modificar?    |
                             |                                      |
                             |  1.- Nombre                          |
                             |  2.- Contraseña                      |
@@ -244,7 +243,7 @@ public class Menus {
                         Boolean salir = false;
                         while (!salir){
                             do {
-                                System.out.print("Seleccione la reserva que desee borrar o pulse 0 (cero) para salir: ");
+                                System.out.print("Seleccione la reserva que desea borrar o pulse 0 (cero) para salir: ");
                                 opcion = Integer.parseInt(s.nextLine());
                                 if(opcion == 0) salir = true;
                                 else {
@@ -357,7 +356,7 @@ public class Menus {
                         System.out.println("""
                             ========= EDITAR MIS VIVIENDAS =========
                             |                                      |
-                            |    ¿Qué apartado desee modificar?    |
+                            |    ¿Qué apartado desea modificar?    |
                             |                                      |
                             |  1.- Número de huéspedes             |
                             |  2.- Precio por noche                |
@@ -432,11 +431,12 @@ public class Menus {
                             case 5: //Salir
                                 salirModificacion = true;
                                 Mensajes.delay("Volviendo al menú propietario");
+                                break;
                             default:
                                 System.out.println("Error al elegir la opción.");
                                 Mensajes.pausa("Pulse enter para continuar...");
                         }
-                    } while (opcion != 5);
+                    } while (!salirModificacion);
                     break;
                 case 3: // Ver las reservas de mis viviendas
                     System.out.println(propietario.verReservas());
@@ -590,7 +590,7 @@ public class Menus {
         System.out.println("""
                             =========== MODIFICAR PERFIL ===========
                             |                                      |
-                            |    ¿Qué apartado desee modificar?    |
+                            |    ¿Qué apartado desea modificar?    |
                             |                                      |
                             |  1.- Nombre                          |
                             |  2.- Apellidos                       |
