@@ -51,23 +51,30 @@ email: admin@gmail.com
 contraseña: admin
 
 1. Ver todas las viviendas en alquiler
+
+![image](https://user-images.githubusercontent.com/119956424/206858435-6c183d07-b0d4-4766-9ec2-49ca897b02a3.png)
+
+Se mostrarán todas las viviendas registradas.
+
 2. Ver todos los usuarios del sistema
 
+![image](https://user-images.githubusercontent.com/119956424/206858488-5b689476-6a51-41a7-b8e0-c5f87c64dba4.png)
 
+Muestra todos los usuarios y propietarios registrados.
 
-4. Ver todas las reservas de viviendas
+3. Ver todas las reservas de viviendas
 
 ![image](https://user-images.githubusercontent.com/119956424/206857889-c87b859c-0ba5-47b0-acb9-85e404022f7e.png)
 
 Muestra todas las reservas creadas.
 
-5. Ver mi perfil
+4. Ver mi perfil
 
 ![image](https://user-images.githubusercontent.com/119956424/206857849-ba25d517-0b8a-4012-9fbb-41383333a9ec.png)
 
 Te muestra los datos del administrador.
 
-6. Modificar mi perfil
+5. Modificar mi perfil
 
 ![image](https://user-images.githubusercontent.com/119956424/206857817-b2935e4b-b7cd-4ea4-a434-b29c224d2d71.png)
 
